@@ -3,7 +3,8 @@ const {Server} = require("socket.io");
 
 const httpServer = createServer();
 const io = new Server(httpServer,{
-    cors:true
+    cors:""
+    
 });
 
 var EmailtoSocketIdMap = new Map();

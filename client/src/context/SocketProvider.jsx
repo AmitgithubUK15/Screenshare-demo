@@ -14,7 +14,7 @@ export default function ScoketProvider({children}){
 const [socket,setsocket] = useState();
 
 useEffect(()=>{
-    const websocket = io("http://localhost:4040");
+    const websocket = io("https://screenshare-demo-five.vercel.app/");
 
     // websocket.on("msg",(msg)=>{
     //     console.log(msg);
