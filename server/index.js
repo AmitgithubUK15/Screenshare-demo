@@ -3,7 +3,7 @@ const {Server} = require("socket.io");
 
 const httpServer = createServer();
 const io = new Server(httpServer,{
-    cors:""
+    cors:"https://scrndemo.netlify.app/"
     
 });
 
